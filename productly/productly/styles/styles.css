@@ -110,46 +110,46 @@ body {
   border: 1px solid #BCD0E5;
   color: #173A56;
 }
-.header{
+.hero{
   display: inline-flex;
   width: 100%;
   margin-top: 30px;
 }
-.header .left-side{
+.hero .left-side{
   width: 518px;
   position: relative;
   padding-top: 83px;
   float: left;
 }
-.header .left-side .text h1{
+.hero .left-side .text h1{
     font-size: 44px;
     font-weight: bold;
     line-height: 1.2em;
     font-family: sans-serif;
 }
-.header .left-side .text p{
+.hero .left-side .text p{
   font-size: 18px;
   line-height: 1.5em;
   padding-top: 30px;
   padding-bottom: 45px;
 }
-.header .left-side .btn-orange{
+.hero .left-side .btn-orange{
   margin-left: 0;
   margin-right: 14px;
 }
-.header .left-side .btn-ghost{
+.hero .left-side .btn-ghost{
   border: none;
   color: #FF9900;
 }
-.header .left-side .btn-ghost>span{
+.hero .left-side .btn-ghost>span{
   position: relative;
   top: 2px;
 }
-.header .left-side .btn-ghost>img{
+.hero .left-side .btn-ghost>img{
   float: left;
   margin-right: 5px;
 }
-.header>img{
+.hero>img{
   float: right;
 }
 
