@@ -56,6 +56,10 @@ table {
 body {
   font-family: 'Poppins', sans-serif;;
 }
+main p {
+  color: #544837;
+  font-weight: 500;
+}
 .main_header {
   float: left;
   width:100%;
@@ -115,8 +119,8 @@ body {
   width: 100%;
   margin-top: 30px;
 }
-.hero .left-side{
-  width: 518px;
+.left-side{
+  width: 50%;
   position: relative;
   padding-top: 83px;
   float: left;
@@ -183,9 +187,9 @@ body {
 .features article:last-child .img{
   background: #4DADF7;
 }
-.features .img img{
-  position: relative;
-  top: 15px;
+.features i {
+  color: #fff;
+  line-height: 50px;
 }
 .features h1{
   font-size: 36px;
@@ -224,4 +228,66 @@ body {
 .features-btn-orange {
   background-color:#FF9900;
   color: white;
+}
+
+.design {
+  margin-top: 219px;
+}
+.design h1 {
+  font-size: 36px;
+  font-weight: 36px;
+  color: #2F281E;
+  line-height: 1.5em;
+  margin-bottom: 22px;
+  margin-top: 3px;
+}
+.design p {
+  width: 486px;
+}
+.design p.secondparagraph {
+  margin-bottom: 30px;
+}
+.design article h3 {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.design article p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+.managers {
+  clear: both;
+  margin-top: 101px;
+}
+.managers .left-side{
+  float: right;
+  padding-left: 102px;
+}
+.managers img{
+  float: left;
+}
+.managers article{
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+.managers article p {
+  margin: 0 0;
+  width: 365px;
+}
+.managers article div{
+  height: 35px;
+  width: 35px;
+  border-radius: 13.85px;
+  background: #FF9900;
+  color: #fff;
+  text-align: center;
+  margin-right: 30px;
+}
+.managers article div i {
+  line-height: 35px;
+}
+.marketers{
+  clear: both;
+  position: relative;
+  top:105px;
 }
