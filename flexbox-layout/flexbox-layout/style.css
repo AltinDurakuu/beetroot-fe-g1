@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-section{
+    background-color: bisque;
+    padding: 10px;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.first-section div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin:10px;
+}
+
+.second-section{
+    background-color: bisque;
+    margin-top: 20px;
+    padding: 10px;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.second-section div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin:10px;
+}
