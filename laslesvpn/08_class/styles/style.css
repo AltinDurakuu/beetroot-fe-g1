@@ -277,7 +277,7 @@ body {
 }
 .choose-plan__items{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .choose-plan__item__content {
   text-align: center;
@@ -288,6 +288,7 @@ body {
   justify-content: space-between;
   border: 2px solid #DDDDDD;
   border-radius: 10px;
+  background-color: #fff;
 }
 .choose-plan__item__content h3{
   font-weight: 500;
@@ -303,6 +304,7 @@ body {
   font-size: 14px;
   line-height: 30px;
   color: #4F5665;
+  margin-bottom:10px;
 }
 .choose-plan__item__content i{
   color: #2FAB73;
